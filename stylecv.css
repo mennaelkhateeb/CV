@@ -1,0 +1,196 @@
+
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial;
+
+    }                                                           
+    .about {
+        background-color: #939699;
+        color: #000000;
+        width: 30%; 
+        flex: 30%;
+        padding: 10px;
+        border-right: 7px solid #ffffff;
+    }
+    .content1 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 700px;
+    }
+    .pic1 {
+        display: flex;
+        width: 100%;
+        background-color: #ffffff;
+        line-height: 45px;
+        justify-content: center;
+        font-size: 25px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .pic1 p {
+        margin-left: 3px;
+        padding: 3px;
+        
+    }
+    
+    .pic2 {
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        background-color: #ffffff;
+        justify-content: center;
+        font-size: 24px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .img .name{
+        
+        position: absolute;
+        bottom: 400px;
+        color: rgb(197, 184, 184);
+        left: 20px;
+        text-transform: capitalize;
+        font-size: 24px;
+    }
+
+    .pic2 .span1{
+        margin: auto;
+        padding-left: 2px  ;
+        font-size: 30px;
+    }
+    .pic2 .span2{
+        
+        background-color: #a9b2b9;
+        width: 280px;
+        border-radius: 20px;
+        position: relative;
+        left: 5px;
+        
+    }
+    .a {
+        background-color: #494240;
+        width: 250px;
+        border-radius: 20px;
+        margin: 0;
+        text-align: center;
+    }
+    .b {
+        background-color: #494240;
+        width: 190px;
+        border-radius: 20px;
+        margin: 0;
+        text-align: center;
+    }
+    .c {
+        background-color: #494240;
+        width: 140px;
+        border-radius: 20px;
+        margin: 0;
+        text-align: center;
+    }
+    .d {
+        background-color: #494240;
+        width: 70px;
+        border-radius: 20px;
+        margin: 0;
+        text-align: center;
+    }
+    .e {
+        background-color: #494240;
+        width: 280px;
+        border-radius: 20px;
+        margin: 0;
+        text-align: center;
+    }
+    .f {
+        background-color: #494240;
+        width: 200px;
+        border-radius: 20px;
+        margin: 0;
+        text-align: center;
+    }
+    .g {
+        background-color: #494240;
+        width: 110px;
+        border-radius: 20px;
+        margin: 0;
+        text-align: center;
+    }
+    .BigHeader {
+        background-color: #939699;
+        color: #000000;
+        width: 70%; 
+        flex: 70%;
+        padding: 10px;
+    }
+    
+    .pic5,.pic6 {
+        background-color: #ffffff;
+        width: 100%;
+        font-size: 24px;
+        display: flex;
+        /*line-height: 10px;*/
+        justify-content: center;
+        display: block;
+    }
+    .pic5 h1{
+        font-size: 35px;
+        padding: 10px 20px;
+        margin: 0px;
+    }
+    .pic5 h2{
+        padding-left: 8px;
+        font-size: 23px;
+        margin: 2px;
+    }
+    .pic5 p{
+        padding-left: 8px;
+        font-size: 20px;
+        margin: 2px;  
+    }
+    .pic5 input{
+        padding-left: 15px;
+        font-size: 20px;
+        margin: 4px;  
+    }
+
+    .pic6  h1{
+        font-size: 35px;
+        padding: 10px 20px;
+        margin: 0px;
+    }
+    .pic6 h2{
+        padding-left: 8px;
+        font-size: 23px;
+        margin: 2px;
+    }
+    .pic6 p{
+        padding-left: 8px;
+        font-size: 20px;
+        margin: 2px;  
+    }
+    .pic6 input{
+        padding-left: 15px;
+        font-size: 20px;
+        margin: 4px;  
+    }
+
+    .Footer {
+        width: 100%;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        line-height: 20px;
+        background-color: #ffffff;
+        font-size: 15px;
+        font-weight: bold;
+        color: #000000;
+        margin: 0px;
+        padding: 0px;
+    }
